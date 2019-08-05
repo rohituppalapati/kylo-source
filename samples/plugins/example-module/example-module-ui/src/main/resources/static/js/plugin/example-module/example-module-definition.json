@@ -1,0 +1,54 @@
+{
+  "moduleName": "",
+  "moduleJsUrl":"plugin/example-module/module",
+  "states": [
+    {
+      "state": "exampleModule",
+      "url": "/exampleModule",
+      "params": {
+        "name": null
+      }
+    },
+    {
+      "state": "exampleFeedModule",
+      "url": "/exampleFeedModule/:feedId",
+      "params": {
+        "feedId": null,
+        "feedName":null,
+        "model":null
+      }
+    },
+    {
+      "state": "exampleTemplateModule",
+      "url": "/exampleTemplateModule/:templateId",
+      "params": {
+        "templateId": null,
+        "templateName":null,
+        "model":null
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "toggleGroupName": "NEW_MODULE",
+      "text": "New Module",
+      "narrowText": "New",
+      "links": [
+        {
+          "sref": "exampleModule",
+          "icon": "transform",
+          "text": "Example",
+          "permission": ["accessExample"]
+        }
+      ]
+    }
+  ],
+  "feedNavigation": [{
+    "linkText":"Example Feed Link",
+    "sref":"exampleFeedModule"
+  }],
+  "templateNavigation": [{
+    "linkText":"Example Template Link",
+    "sref":"exampleTemplateModule"
+  }]
+}
