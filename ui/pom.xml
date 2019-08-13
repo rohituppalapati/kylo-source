@@ -18,8 +18,8 @@
   </properties>
 
   <modules>
-    <module>ui-app</module>
-    <module>swagger-ui</module>
+    <!-->module>ui-app</module>
+    <module>swagger-ui</module-->
     <module>ui-api</module>
     <module>ui-controller</module>
   </modules>

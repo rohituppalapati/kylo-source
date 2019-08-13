@@ -11,7 +11,7 @@
   </parent>
   <properties>
     <plugin.license.parentRelative>../../../</plugin.license.parentRelative>
-    <nifi.nar.maven.plugin.version>1.1.0</nifi.nar.maven.plugin.version>
+    <nifi.nar.maven.plugin.version>1.3.1</nifi.nar.maven.plugin.version>
   </properties>
   <packaging>pom</packaging>
 

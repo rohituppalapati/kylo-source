@@ -28,6 +28,7 @@ import org.apache.nifi.processor.Processor;
 import org.apache.nifi.processor.ProcessorInitializationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.AbstractRefreshableConfigApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 
 import javax.annotation.Nonnull;
@@ -48,7 +49,7 @@ public abstract class AbstractNiFiProcessor extends AbstractProcessor {
 
         // Create Spring application context
         final AbstractRefreshableConfigApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-        applicationContext.setClassLoader(AbstractNiFiProcessor.class.getClassLoader());
+        applicationContext.setClassLoader(ClassPathXmlApplicationContext.class.getClassLoader());
         applicationContext.refresh();
 
         // Get component log

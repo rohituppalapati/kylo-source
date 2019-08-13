@@ -17,6 +17,13 @@
 
   <dependencies>
 
+<!-- https://mvnrepository.com/artifact/com.wordnik.swagger/swagger-async-httpclient -->
+	<dependency>
+	    <groupId>com.wordnik.swagger</groupId>
+	    <artifactId>swagger-async-httpclient_2.11</artifactId>
+	    <version>0.3.5</version>
+	</dependency>
+
     <dependency>
       <groupId>com.thinkbiganalytics.kylo</groupId>
       <artifactId>kylo-commons-feed-util</artifactId>

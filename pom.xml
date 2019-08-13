@@ -160,7 +160,7 @@
     <scala.binary.version>2.11</scala.binary.version>
     <spark.version>2.3.0</spark.version>
     <spark.binary.version>2.0</spark.binary.version>
-    <spring.version>4.2.5.RELEASE</spring.version>
+    <spring.version>4.3.19.RELEASE</spring.version>
     <spring.batch.version>3.0.6.RELEASE</spring.batch.version>
     <spring.boot.version>1.3.7.RELEASE</spring.boot.version>
     <spring.cloud.version>1.1.3.RELEASE</spring.cloud.version>
@@ -197,14 +197,14 @@
     <module>commons</module>
     <module>core</module>
     <module>security</module>
-    <!-->module>ui</module-->
+    <module>ui</module>
     <module>plugins</module>
     <module>metadata</module>
     <module>services</module>
     <module>integrations</module>
-    <!-->module>install</module>
+    <!-->module>install</module-->
     <module>docs</module>
-    <module>samples</module>
+    <!-->module>samples</module>
     <module>release</module-->
   </modules>
   <repositories>
@@ -260,6 +260,11 @@
           need, but we still have to include in the "dependencies" section the modules
           we DO need. The benefit is that we don't have to specify the versions of
           any of those modules. -->
+	         <dependency>
+	    <groupId>com.wordnik.swagger</groupId>
+	    <artifactId>swagger-async-httpclient_2.11</artifactId>
+	    <version>0.3.5</version>
+	</dependency>		
       <dependency>
         <groupId>org.modeshape.bom</groupId>
         <artifactId>modeshape-bom-embedded</artifactId>

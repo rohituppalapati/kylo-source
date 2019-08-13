@@ -18,7 +18,7 @@ package com.thinkbiganalytics.feedmgr.rest.model;
  * limitations under the License.
  * #L%
  */
-import com.wordnik.swagger.annotations.ApiModelProperty;
+import io.swagger.annotations.ApiModelProperty;
 
 import org.apache.nifi.web.api.dto.PortDTO;
 import org.apache.nifi.web.api.dto.PositionDTO;
