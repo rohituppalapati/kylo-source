@@ -116,7 +116,7 @@
     <hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
     <junit.version>4.11</junit.version>
     <testng.version>6.9.10</testng.version>
-    <slf4j.version>1.7.12</slf4j.version>
+    <slf4j.version>1.7.26</slf4j.version>
     <slf4j.log4j12.version>1.7.10</slf4j.log4j12.version>
     <io.swagger.version>1.5.22</io.swagger.version>
     <commons-beanutils.version>1.9.2</commons-beanutils.version>
