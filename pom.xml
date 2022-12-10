@@ -109,7 +109,7 @@
     <automatic-release-repo-promotion>false</automatic-release-repo-promotion>
     <activemq.version>5.15.0</activemq.version>
     <avro.version>1.7.7</avro.version>
-    <spring.version>4.2.5.RELEASE</spring.version>
+    <spring.version>6.0.0</spring.version>
     <jersey.version>2.22.2</jersey.version>
     <jackson.version>2.6.2</jackson.version>
     <hibernate.version>5.1.5.Final</hibernate.version>
